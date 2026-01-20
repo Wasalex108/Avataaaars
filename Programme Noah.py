@@ -1,2 +1,0 @@
-def Noah():
-    print("Noah")
