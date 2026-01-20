@@ -62,7 +62,7 @@ label_1 = Label(fenetre,text = "Avataars",fg = 'red', bg = "cyan",font = "Arial 
 label_1.pack(padx = 5,pady = 5)
 
 # Le canevas
-Canevas = Canvas(fenetre,width = LARG,height = HAUT,bg ='cyan')
+Canevas = Canvas(fenetre,width = LARG,height = HAUT,bg ='white')
 Canevas.pack(padx = 5,pady = 5)
 image_avatars = ImageTk.PhotoImage(file ="avatars.png")
 avatars = Canevas.create_image(375,375, image = image_avatars)
@@ -92,6 +92,7 @@ bouton_chapeau = Button(fenetre,text = " Chapeau ",bg = 'yellow',command = Chape
 bouton_chapeau.pack(side = LEFT,padx = 10,pady = 10)
 
 fenetre.mainloop()
+
 
 
 
