@@ -83,14 +83,15 @@ bouton_quitter = Button(fenetre,text = " Quitter ",bg = 'red' ,command = fenetre
 bouton_quitter.pack(side = RIGHT,padx = 10,pady = 10)
 
 bouton_barbe = Button(fenetre,text = " Barbe ",bg = 'yellow',command = Barbe)
-bouton_barbe.pack(side = LEFT,padx = 180,pady = 10)
+bouton_barbe.pack(side = LEFT,padx = 10,pady = 10)
 
 bouton_lunette = Button(fenetre,text = " Lunette ",bg = 'yellow',command = Lunette)
-bouton_lunette.pack(side = LEFT,padx = 10,pady = 10)
+bouton_lunette.pack(side = LEFT,padx = 180,pady = 10)
 
 bouton_chapeau = Button(fenetre,text = " Chapeau ",bg = 'yellow',command = Chapeau)
 bouton_chapeau.pack(side = LEFT,padx = 10,pady = 10)
 
 fenetre.mainloop()
+
 
 
